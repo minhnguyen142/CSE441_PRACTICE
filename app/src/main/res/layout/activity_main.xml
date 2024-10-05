@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/BMITitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chương trình tính chỉ số BMI"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/InputNameTextView"
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Nhập tên:"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/InputNameEditText"
+                android:layout_width="347dp"
+                android:layout_height="48sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/InputHeightTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Chiều cao:"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/InputHeightEditText"
+                android:layout_width="match_parent"
+                android:layout_height="48sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/InputWeightTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Cân nặng:"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/InputWeightEditText"
+                android:layout_width="match_parent"
+                android:layout_height="48sp" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/BMICalculateButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Tính BMI"
+            android:textSize="20dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/BMITextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="BMI="
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/BMIEditText"
+                android:layout_width="match_parent"
+                android:layout_height="48sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/DiagnoseTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Chẩn đoán:"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/DiagnoseEditText"
+                android:layout_width="match_parent"
+                android:layout_height="48sp" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
