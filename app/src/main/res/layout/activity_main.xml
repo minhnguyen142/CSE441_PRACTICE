@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="16dp">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Chuyển đổi năm dương lịch"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textViewYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Năm dương lịch:" />
+
+        <EditText
+            android:id="@+id/editYear"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnChuyenDoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Chuyển đổi" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textViewLunarYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Năm âm lịch:" />
+
+        <TextView
+            android:id="@+id/textViewLunar"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="" />
+    </TableRow>
+</TableLayout>
