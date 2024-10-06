@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Giải phương trình bậc 2" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập a:" />
+
+        <EditText
+            android:id="@+id/editTextA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập b:" />
+
+        <EditText
+            android:id="@+id/editTextB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập c:" />
+
+        <EditText
+            android:id="@+id/editTextC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiếp tục" />
+
+        <Button
+            android:id="@+id/buttonSolve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giải PT" />
+
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thoát" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+
+</TableLayout>
