@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "334689778370",
+    "firebase_url": "https://btth04-3e638-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "btth04-3e638",
+    "storage_bucket": "btth04-3e638.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334689778370:android:03e6db0d76d2da53f3995b",
+        "android_client_info": {
+          "package_name": "com.hikari.btth04"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9tkLQODkCUZjCosZtzTAk_eiS8KTq_6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
