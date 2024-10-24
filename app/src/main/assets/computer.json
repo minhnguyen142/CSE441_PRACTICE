@@ -1,0 +1,22 @@
+{
+  "Sanpham": [
+    {
+      "MaSP": "SP_001",
+      "TenSP": "Dell Inspiron 5515",
+      "SoLuong": "10",
+      "DonGia": "100000",
+      "ThanhTien": "1000000",
+      "Hinh": "https://duythanhcse.wordpress.com/h1.png"
+    },
+    {
+      "MaSP": "SP_004",
+      "TenSP": "HP Pavalion G4 460",
+      "SoLuong": "20",
+      "DonGia": "200000",
+      "ThanhTien": "4000000",
+      "Hinh": "https://duythanhcse.wordpress.com/h2.png"
+    }
+  ],
+  "MaDM": "DM_001",
+  "TenDM": "Hàng máy tính"
+}
